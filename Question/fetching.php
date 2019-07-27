@@ -13,7 +13,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
 //fetch.php
 
-$connect = new PDO('mysql:host=localhost;dbname=finalproject', 'root', 'sanustha@789');
+$connect = new PDO('mysql:host=localhost;dbname=finalproject', 'root', '');
 
 $query = "SELECT * FROM business1 ORDER BY business1_id ";
 $statement = $connect->prepare($query);
