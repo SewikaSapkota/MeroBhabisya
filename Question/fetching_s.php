@@ -2,7 +2,7 @@
 
 //fetch.php
 
-$connect = new PDO('mysql:host=localhost;dbname=finalproject', 'root', 'sanustha@789');
+$connect = new PDO('mysql:host=localhost;dbname=finalproject', 'root', '');
 
 $query = "SELECT * FROM question where question_id BETWEEN 31 AND 45 ORDER BY question_id";
 $statement = $connect->prepare($query);
