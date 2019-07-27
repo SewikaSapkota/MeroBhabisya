@@ -4,7 +4,7 @@
 $dsn = 'mysql:host=localhost;dbname=finalproject';
 	$userName = 'root';
 	$password = 'sanustha@789';
-	$conn=mysqli_connect("localhost","root","sanustha@789","finalproject");
+	$conn=mysqli_connect("localhost","root","","finalproject");
 // Check connection
 if (mysqli_connect_errno())
   {
